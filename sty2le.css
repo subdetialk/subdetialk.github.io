@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #111;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    padding: 15px 30px;
+    background-color: #b8860b; /* Dorado elegante */
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.nav-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(255, 215, 0, 0.7);
+}
+
+.section {
+    padding: 80px;
+    text-align: center;
+}
+
+#precios, #videos, #productos, #culturistas {
+    min-height: 100vh;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery-item p {
+    font-style: italic;
+    color: #ffd700;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('image/99672-3028x2036-desktop-hd-arnold-schwarzenegger-background-image.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+/* Culturistas Famosos con estilo neón */
+#culturistas h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffb600;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid #ffd700; /* Borde neón dorado */
+    box-shadow: 0 0 15px #ffd700, 0 0 30px #ffd700, 0 0 45px #ffd700;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el ratón */
+    box-shadow: 0 0 20px #ffd700, 0 0 40px #ffd700, 0 0 60px #ffd700;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #ffb600, 0 0 20px #ffb600;
+}
+
+.gallery-item p {
+    font-size: 16px;
+    color: #ffd700;
+    font-style: italic;
+    text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 15px #ffd700;
+    margin-top: 10px;
+}
+
+/* Menú de navegación con efecto neón rojo */
+.nav-item {
+    padding: 15px 30px;
+    background-color: #111; /* Fondo oscuro */
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #ff0000; /* Borde neón rojo */
+    box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.nav-item:hover {
+    transform: translateY(-5px); /* Efecto al pasar el ratón */
+    box-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000, 0 0 60px #ff0000;
+}
+
+/* Efecto neón para las secciones */
+.section h2 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
+}
+
+.section p {
+    color: #ff9999;
+    font-size: 18px;
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000;
+}
+
+/* Estilo general del body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('image/99672-3028x2036-desktop-hd-arnold-schwarzenegger-background-image.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo del menú de navegación */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #222;
+}
+
+.nav-item {
+    padding: 15px 30px;
+    background-color: #111;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #8a2be2; /* Borde neón púrpura */
+    box-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.nav-item:hover {
+    transform: translateY(-5px); /* Efecto al pasar el ratón */
+    box-shadow: 0 0 20px #8a2be2, 0 0 40px #8a2be2, 0 0 60px #8a2be2;
+}
+
+/* Estilo de la sección de precios */
+#precios {
+    padding: 40px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2, 0 0 40px #8a2be2;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start; /* Asegura que los cuadros estén alineados en la parte superior */
+}
+
+.price-card {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 15px;
+    width: 220px;
+    text-align: center;
+    border: 2px solid #8a2be2; /* Borde neón púrpura */
+    box-shadow: 0 0 15px #8a2be2, 0 0 30px #8a2be2, 0 0 45px #8a2be2;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.price-card:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar el ratón */
+    box-shadow: 0 0 25px #8a2be2, 0 0 50px #8a2be2, 0 0 75px #8a2be2;
+}
+
+.price-card h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
+}
+
+.price-card p {
+    font-size: 18px;
+    color: #d8aaff;
+    text-shadow: 0 0 5px #8a2be2, 0 0 10px #8a2be2;
+}
+
+/* Estilo de las secciones restantes */
+.section p {
+    color: #d8aaff;
+    font-size: 18px;
+    text-shadow: 0 0 5px #8a2be2, 0 0 10px #8a2be2;
+}
+
+/* Estilo general del body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('99672-3028x2036-desktop-hd-arnold-schwarzenegger-background-image.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo del menú de navegación */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #222;
+}
+
+.nav-item {
+    padding: 15px 30px;
+    background-color: #111;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #8a2be2; /* Borde neón púrpura */
+    box-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.nav-item:hover {
+    transform: translateY(-5px); /* Efecto al pasar el ratón */
+    box-shadow: 0 0 20px #8a2be2, 0 0 40px #8a2be2, 0 0 60px #8a2be2;
+}
+
+/* Estilo de la sección de precios */
+#precios {
+    padding: 40px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2, 0 0 40px #8a2be2;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start; /* Asegura que los cuadros estén alineados en la parte superior */
+}
+
+.price-card {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 15px;
+    width: 220px;
+    text-align: center;
+    border: 2px solid #8a2be2; /* Borde neón púrpura */
+    box-shadow: 0 0 15px #8a2be2, 0 0 30px #8a2be2, 0 0 45px #8a2be2;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.price-card:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar el ratón */
+    box-shadow: 0 0 25px #8a2be2, 0 0 50px #8a2be2, 0 0 75px #8a2be2;
+}
+
+.price-card h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
+}
+
+.price-card p {
+    font-size: 18px;
+    color: #d8aaff;
+    text-shadow: 0 0 5px #8a2be2, 0 0 10px #8a2be2;
+}
+
+/* Estilo de la sección de productos con neón rojo */
+#productos {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 15px;
+    width: 220px;
+    text-align: center;
+    border: 2px solid #ff4d4d; /* Borde neón rojo */
+    box-shadow: 0 0 15px #ff4d4d, 0 0 30px #ff4d4d, 0 0 45px #ff4d4d;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar el ratón */
+    box-shadow: 0 0 25px #ff4d4d, 0 0 50px #ff4d4d, 0 0 75px #ff4d4d;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #ff4d4d, 0 0 20px #ff4d4d, 0 0 30px #ff4d4d;
+}
+
+.product-card p {
+    font-size: 18px;
+    color: #ffb3b3;
+    text-shadow: 0 0 5px #ff4d4d, 0 0 10px #ff4d4d;
+}
+
+/* Estilo general del body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('image/99672-3028x2036-desktop-hd-arnold-schwarzenegger-background-image.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo del menú de navegación */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #222;
+}
+
+.nav-item {
+    padding: 15px 30px;
+    background-color: #111;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #8a2be2; /* Borde neón púrpura */
+    box-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.nav-item:hover {
+    transform: translateY(-5px); /* Efecto al pasar el ratón */
+    box-shadow: 0 0 20px #8a2be2, 0 0 40px #8a2be2, 0 0 60px #8a2be2;
+}
+
+/* Estilo de la sección de precios */
+#precios {
+    padding: 40px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2, 0 0 40px #8a2be2;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start; /* Asegura que los cuadros estén alineados en la parte superior */
+}
+
+.price-card {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 15px;
+    width: 220px;
+    text-align: center;
+    border: 2px solid #8a2be2; /* Borde neón púrpura */
+    box-shadow: 0 0 15px #8a2be2, 0 0 30px #8a2be2, 0 0 45px #8a2be2;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.price-card:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar el ratón */
+    box-shadow: 0 0 25px #8a2be2, 0 0 50px #8a2be2, 0 0 75px #8a2be2;
+}
+
+.price-card h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 30px #8a2be2;
+}
+
+.price-card p {
+    font-size: 18px;
+    color: #d8aaff;
+    text-shadow: 0 0 5px #8a2be2, 0 0 10px #8a2be2;
+}
+
+/* Estilo de la sección de productos con neón rojo */
+#productos {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 15px;
+    width: 220px;
+    text-align: center;
+    border: 2px solid #ff4d4d; /* Borde neón rojo */
+    box-shadow: 0 0 15px #ff4d4d, 0 0 30px #ff4d4d, 0 0 45px #ff4d4d;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar el ratón */
+    box-shadow: 0 0 25px #ff4d4d, 0 0 50px #ff4d4d, 0 0 75px #ff4d4d;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #ff4d4d, 0 0 20px #ff4d4d, 0 0 30px #ff4d4d;
+}
+
+.product-card p {
+    font-size: 18px;
+    color: #ffb3b3;
+    text-shadow: 0 0 5px #ff4d4d, 0 0 10px #ff4d4d;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+/* Estilo de la sección de videos */
+#videos {
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas para distribuir los videos */
+    gap: 20px;
+}
+
+.video-card {
+    background-color: #111;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #ff4d4d; /* Borde neón rojo */
+    box-shadow: 0 0 15px #ff4d4d, 0 0 30px #ff4d4d, 0 0 45px #ff4d4d;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.video-card:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar el ratón */
+    box-shadow: 0 0 25px #ff4d4d, 0 0 50px #ff4d4d, 0 0 75px #ff4d4d;
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
